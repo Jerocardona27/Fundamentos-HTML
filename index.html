@@ -15,7 +15,12 @@
                 <ul class="menu">
                     <li class="lista" id="caja1"><a href="#titulo1">Gato doméstico</a></li>
                     <li class="lista" id="caja2"><a href="#titulo2">Arroz</a></li>
-                    <li class="lista" id="caja3"><a href="#titulo3">Gatos más bonitos</a></li>
+                    <li class="lista" id="caja3"><a href="#titulo3">Gatos más bonitos</a>
+                        <ul class="hidden">
+                            <li><a href="#calabaza">Gato calabaza</a></li>
+                            <li><a href="#gatos">Gatos de wikipedia</a></li>
+                        </ul>
+                    </li>
             </nav>
         </header>
         <h1 id="titulo1">
@@ -75,13 +80,66 @@
     <aside>
         <div style="text-align:center;">
             <h1>Gatos más bonitos que me encontré en internet</h1>
-            <img class="imagen-calabaza" src="images/Gatoc.jpeg" alt="NO se pudo mostrar" title="Gato Calabaza"
-                height="250px" width="250px">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Collage_of_Six_Cats-02.jpg/800px-Collage_of_Six_Cats-02.jpg"
+            <img id="calabaza" src="images/Gatoc.jpeg" alt="NO se pudo mostrar" title="Gato Calabaza" height="250px"
+                width="250px">
+            <img id="gatos"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Collage_of_Six_Cats-02.jpg/800px-Collage_of_Six_Cats-02.jpg"
                 alt="NO se pudo mostrar" title="Gato Calabaza" height="250px" width="250px">
         </div>
     </aside>
+    <hr>
+    <section id="formulario">
 
+        <h1>¿Te gustan los gatos? ¡¡Envianos tu favorito!!</h1>
+        <form class="form">
+            <div class="contenedorform">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="Nombre" placeholder="Nombre"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="Email" placeholder="Email"><br>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="Contraseña" placeholder="Contraseña"><br>
+                <label for="comentario">Comentario</label>
+                <input type="text" name="comentario" id="Comentario" placeholder="Comentario">
+                <label for="pais">¿De qué país eres?</label>
+                <select name="pais" id="pais">
+                    <option value="0">Seleccionar país</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="mexico">México</option>
+                    <option value="peru">Perú</option>
+                </select>
+                <div>
+                    <label for="gato">¿Cuál es tu raza de Gato favorita?</label><br>
+                    <label for="persa">Persa</label>
+                    <input type="radio" name="gato" id="boton1">
+                    <label for="Siames">Siames</label>
+                    <input type="radio" name="gato" id="boton2">
+                    <label for="Maine coon">Maine Coon</label>
+                    <input type="radio" name="gato" id="boton3">
+                    <label for="British Shorthair">British Shorthair</label>
+                    <input type="radio" name="gato" id="boton4">
+                    <label for="Bengal">Bengal</label>
+                    <input type="radio" name="gato" id="boton5">
+                </div>
+                <div class="mascota">
+                    <label for="" id="mascota1">¿Qué mascota tienes?</label>
+                    <label for="">Perro</label>
+                    <input type="checkbox" name="perro" id="perro">
+                    <label for="">Gato</label>
+                    <input type="checkbox" name="gato" id="gato">
+                    <label for="">Otro</label>
+                    <input type="checkbox" name="otro" id="otro">
+                    <label for="">Ninguno</label>
+                    <input type="checkbox" name="ninguno" id="ninguno">
+                </div>
+                <input type="button" value="Enviar">
+            </div>
+        </form>
+
+
+
+    </section>
+    <hr>
     <div class="caja"><a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus" target="_blank">Para saber más de
             los gatos</a>
 

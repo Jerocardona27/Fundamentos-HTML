@@ -19,6 +19,7 @@
     background-size: cover;
     background-position: center;
     height: 50vh;
+
 }
 
 h1 {
@@ -30,11 +31,11 @@ h1 {
 }
 
 body {
-    background-color: red;
+    background-color: #7887F5
 }
 
 .contenedorcaja h2 {
-    background-color: red;
+    background-color: #7887F5;
     margin: 0;
     width: 100%;
     color: white;
@@ -71,23 +72,38 @@ nav {
     font-size: 17px;
 }
 
+.menu li ul {
+    list-style: none;
+    background-color: #7887F5;
+    padding: 0px;
+    margin: 0;
+}
+
+.menu li ul {
+    padding: 0;
+}
+
 #caja1 {
-    padding: 10px;
+    padding: 15px;
     float: left;
 
 }
 
 #caja2 {
-    padding: 10px;
-    padding-left: 140px;
+    padding: 15px 0;
 
-
+    margin-left: 28%;
 }
 
 #caja3 {
     padding: 10px;
     float: right;
+    margin: 5px;
 
+}
+
+.lista {
+    background: #7887F5;
 }
 
 .lista a {
@@ -101,6 +117,80 @@ nav {
 
 
 .lista a:hover {
-    background-color: #E6028B;
+    background-color: white;
     border-collapse: collapse;
+    color: black;
+}
+
+.menu li ul a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu li:hover ul {
+    display: block;
+    position: relative;
+    background-color: #7887F5;
+}
+
+.hidden {
+    position: absolute;
+    display: none;
+}
+
+label {
+    padding: 10px 0;
+}
+
+input {
+    display: block;
+    margin-top: 3px;
+}
+
+#Comentario {
+    padding-bottom: 30px;
+    margin-bottom: 14px;
+}
+
+#formulario .form .contenedorform {
+    font-family: font-family 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#pais {
+    margin-top: 10px;
+    display: block;
+}
+
+.form div {
+    margin-top: 10px;
+}
+
+#boton1,
+#boton2,
+#boton3,
+#boton4,
+#boton5 {
+    display: inline-block;
+    margin: 17px 25px 0 2.5px;
+}
+
+#perro,
+#gato,
+#otro,
+#ninguno {
+    display: inline-block;
+}
+
+.mascota #mascota1 {
+    display: block;
+}
+
+.mascota label {
+    display: inline-block;
+}
+
+.mascota input {
+    margin: 17px 25px 0 2.5px;
 }
