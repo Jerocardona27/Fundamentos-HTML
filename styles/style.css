@@ -12,17 +12,21 @@
     background-color: rgba(251, 251, 251, 10);
     height: 67px;
     padding-top: 245px;
-    font-size: 35px;
-    text-align: center;
     margin: 0;
     margin-bottom: 10px;
-    font-family: font-family 'Kanit', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/719/460/desktop-wallpaper-cute-rabbit-and-cat-cute-baby-cats.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 50vh;
+}
+
+h1 {
+    font-family: font-family 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    text-align: center;
+
 }
 
 body {
