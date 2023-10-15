@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+:root {
+    --white: (font-family: 'Kanit', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif; )
+}
+
+
+#titulo1 {
+    background-color: rgba(251, 251, 251, 10);
+    height: 67px;
+    padding-top: 245px;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: font-family 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/719/460/desktop-wallpaper-cute-rabbit-and-cat-cute-baby-cats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+body {
+    background-color: red;
+}
+
+.contenedorcaja h2 {
+    background-color: red;
+    margin: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-family: font-family 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px
+}
+
+.contenedorcaja {
+    background-color: rgba(251, 251, 251, 10);
+    margin-top: 2.3px;
+    padding: 30px
+}
+
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+
+nav {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 17px;
+}
+
+#caja1 {
+    padding: 10px;
+    float: left;
+
+}
+
+#caja2 {
+    padding: 10px;
+    padding-left: 140px;
+
+
+}
+
+#caja3 {
+    padding: 10px;
+    float: right;
+
+}
+
+.lista a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px 50px;
+    margin: 0;
+}
+
+
+
+.lista a:hover {
+    background-color: #E6028B;
+    border-collapse: collapse;
+}
